@@ -1,8 +1,10 @@
 from tkinter import *
 from tkinter import ttk
+import mysql.connector as mysql
+
 window = Tk()
-window.title("Welcome to COEA")
-window.geometry('400x400')
+window.title("COVID form")
+window.geometry('800x400')
 window.configure(background = "gray")
 a = Label(window ,text = "First Name").grid(row = 0,column = 0)
 b = Label(window ,text = "Last Name").grid(row = 1,column = 0)
