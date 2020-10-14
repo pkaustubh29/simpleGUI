@@ -1,9 +1,9 @@
 from tkinter import *
 from tkinter import ttk
 window = Tk()
-window.title("Welcome to COEA")
+window.title("Test form ")
 window.geometry('400x400')
-window.configure(background = "gray")
+window.configure(background = "sky blue")
 a = Label(window ,text = "First Name").grid(row = 0,column = 0)
 b = Label(window ,text = "Last Name").grid(row = 1,column = 0)
 c = Label(window ,text = "Email Id").grid(row = 2,column = 0)
